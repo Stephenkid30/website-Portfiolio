@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="Affordable and professional webs design">
+<meta name ="keywords" content="web design, affordable web design, professional">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Form Web Design</title>
+</head>
+<body>
+    <link rel="stylesheet"  href="style.css">
+
+<header>
+    <div  class ="container">
+     <div class = "navbar" >
+    <div id="branding">
+    <h1><span class ="highlight">Form</span> Web Design</h1>
+    </div>
+    <nav>
+            <ul id="MenuItems">
+            <li class="current"><a href="index.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Service.html">Service</a></li>
+        </ul>
+    </nav>
+     <img src="img/menu.png" class="menu-icon"
+     onclick="menutoggle()"> 
+    </div>
+    </div>
+</header>
+
+<section id="showcase">
+<div class="container">
+<h1>Affordable Professional Web Design</h1>
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga repudiandae in ex.</p>
+</div>
+</section>
+<section id="newsletter">
+    <div class ="container">
+  <h1>Subscribe To Our newsletter</h1>  
+      <form>
+          <input type="email" placeholder="Enter Email..."/>
+          <button type="submit" class="button_1">Subscribe</button>   
+      </form>
+      </div>
+      </section>
+      <section id ="boxes">
+          <div class="container">
+        <div class="box">
+         <img src="img/course-pic.jpg">
+            <h3>HTML5 Markup</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio, eius nam?</p>
+            
+        </div> 
+        <div class="box">
+            <img src="img/site-logo.jpg">
+            <h3>Education</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio, eius nam?</p>
+            
+        </div> 
+        <div class="box">
+            <img src="img/asa.jpg">
+            <h3>Graphic Design</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio, eius nam?</p>    
+        </div> 
+          </div>
+      </section>
+   
+
+        <footer>
+            <p>Form Web Design, Copyright@2022 </p>
+        </footer>
+       
+ 
+
+    <!----- js for toggle menu---->
+    <script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight ="0px";
+
+    function menutoggle(){
+        if(MenuItems.style.maxHeight =="0px")
+        {
+            MenuItems.style.maxHeight ="200px";
+        }
+        else
+        {
+            MenuItems.style.maxHeight="0px"
+        }
+    }
+</script>
+</body>
+</html>   

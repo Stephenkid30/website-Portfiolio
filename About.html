@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="Affordable and professional webs design">
+<meta name ="keywords" content="web design, affordable web design, professional">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Form Web Design</title>
+</head>
+<body>
+    <link rel="stylesheet"  href="style.css">
+
+<header>
+    <div class="container">
+   <div class = "navbar" >
+    <div id="branding">
+    <h1><span class ="highlight">Form</span> Web Design</h1>
+    </div>
+    <nav>
+           <ul id="MenuItems"> 
+            <li><a href="index.html">Home</a></li>
+            <li class="current"><a href="About.html">About</a></li>
+            <li><a href="Service.html">Service</a></li>
+        </ul>
+    </nav>
+    <img src="img/menu.png" class="menu-icon" 
+    onclick="menutoggle()"> 
+    </div>
+    </div>
+</header>
+
+
+<section id="newsletter">
+    <div class ="container">
+      <h1>Subscribe To Our newsletter</h1>  
+      <form>
+          <input type="email" placeholder="Enter Email..."/>
+          <button type="submit" class="button_1">Subscribe</button>   
+      </form>
+      </div>
+      </section>
+      <section id ="main">
+          <div class="container">
+        <article id ="main-col">
+        <h1 class="page-title">About</h1> 
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium quaerat ipsum aliquid eos sunt iusto quos reiciendis, aliquam voluptatem et enim soluta eum! Quisquam obcaecati saepe accusamus maiores sapiente possimus.</p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam deleniti enim soluta accusantium reiciendis nobis quaerat, aliquam, quibusdam vitae optio quasi a animi earum? Enim voluptas, nobis quod nulla aspernatur quia quisquam expedita accusamus at maxime nisi sit inventore ipsam!
+        </p>
+        </article>
+        <aside id ="slidebar">
+            <div  class="dark">
+         <h3>What We Do</h3>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.quaerat <br> ab quas facilis dolor quo eveniet saepe voluptatum placeat amet? Maiores, modi quae.</p>
+          </div>
+          </aside>
+
+          </div>
+      </section>
+
+ <footer>
+    <p>Form Web Design, Copyright@2022 </p> 
+ </footer>
+
+ <!----- js for toggle menu---->
+ <script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight ="0px";
+
+    function menutoggle(){
+        if(MenuItems.style.maxHeight =="0px")
+        {
+            MenuItems.style.maxHeight ="200px";
+        }
+        else
+        {
+            MenuItems.style.maxHeight="0px"
+        }
+    }
+</script>
+</body>
+</html>   
